@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next {
+  height: 100%;
+  background-color: rgb(241 245 249);
+}
+
+@layer components {
+  .checkbox {
+    @apply rounded-full cursor-pointer w-6 h-6;
+  }
+}
